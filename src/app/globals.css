@@ -6,7 +6,6 @@
   --font-heading: "HeadingFont";
   --font-subheading: "SubHeadingFont";
   --background: #ffffff;
-  --foreground: #171717;
 }
 h1,
 h2,
@@ -17,12 +16,6 @@ p {
   font-family: var(--font-subheading);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 @font-face {
   font-family: "HeadingFont";
   src: url("/fonts/Book23.ttf") format("woff2");
@@ -33,7 +26,7 @@ p {
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+  background-color: black;
+  color: white;
   background-image: url("../assets//grid.png");
 }
