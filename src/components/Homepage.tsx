@@ -63,33 +63,32 @@ function homepage() {
           </div>
         </div>
       </div>
-      <div className="flex justify-between items-center gap-10 flex-col w-[80%] mx-auto lg:my-40 md:my-40 my-20 sm:my-20">
-        <div className="flex justify-between items-center gap-20">
-          {/* Left side - Title */}
-          <div className="flex-1">
-            <h2 className="text-white text-6xl font-normal space-y-5">
-              <div>Why Choose</div>
-              <div>TriggerX?</div>
-            </h2>
-          </div>
-          {/* Right side - Feature Card */}
-          <div className="flex-1 flex-col ">
-            <div className="relative bg-[#111111] rounded-xl flex">
-              {/* Content */}
-              <div className="relative z-10 p-8">
-                <h3 className="text-white text-2xl font-semibold mb-4">
-                  Seamless Multi-Chain Support
-                </h3>
-                <p className="text-gray-300 text-lg">
-                  Automate tasks across diverse blockchain networks, including
-                  emerging Layer 2 (L2) solutions.
-                </p>
-              </div>
-              <Image src={chain} alt={""} />
+      <div className="flex justify-between items-center gap-10  w-[90%] mx-auto lg:mt-40 md:mt-40 mt-20 sm:mt-20">
+        {/* Left side - Title */}
+        <div className="flex-1">
+          <h2 className="text-white text-6xl font-normal space-y-5">
+            <div>Why Choose</div>
+            <div>TriggerX?</div>
+          </h2>
+        </div>
+        {/* Right side - Feature Card */}
+        <div className="flex-1 flex-col ">
+          <div className="relative bg-[#111111] rounded-xl flex">
+            {/* Content */}
+            <div className="relative z-10 p-8">
+              <h3 className="text-white text-2xl font-semibold mb-4">
+                Seamless Multi-Chain Support
+              </h3>
+              <p className="text-gray-300 text-lg">
+                Automate tasks across diverse blockchain networks, including
+                emerging Layer 2 (L2) solutions.
+              </p>
             </div>
+            <Image src={chain} alt={""} />
           </div>
         </div>
-
+      </div>
+      <div className="flex justify-between items-center gap-10 flex-col w-[90%] mx-auto lg:mt-10 md:mt-10 mt-10 sm:mt-10">
         <div>
           <div className="grid grid-cols-4 gap-6">
             {/* Customizable Job Templates */}

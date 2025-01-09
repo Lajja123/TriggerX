@@ -25,7 +25,7 @@ function Navbar() {
           />
 
           {/* Foreground Navigation */}
-          <div className="flex gap-12 bg-[#181818F0] px-7 py-4 rounded-full relative z-10">
+          <div className="flex gap-12 bg-[#181818F0] px-7 py-4 rounded-xl relative z-10">
             <div>Home</div>
             <div>Create Job</div>
             <div>Dashboard</div>

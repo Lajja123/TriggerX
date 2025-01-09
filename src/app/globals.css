@@ -5,16 +5,19 @@
 :root {
   --font-heading: "HeadingFont";
   --font-subheading: "SubHeadingFont";
+  --font-subtext: "SubText";
   --background: #0a0a0a;
   --foreground: #ededed;
 }
-h1,
-h2,
-h3 {
+h1 {
   font-family: var(--font-heading);
 }
 p {
   font-family: var(--font-subheading);
+}
+h2,
+h3 {
+  font-family: var(--font-subtext);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -30,6 +33,10 @@ p {
 @font-face {
   font-family: "SubHeadingFont";
   src: url("/fonts/ActayCondensed-Thin.otf") format("woff2");
+}
+@font-face {
+  font-family: "SubText";
+  src: url("/fonts/ActayWide-Bold.otf") format("woff2");
 }
 
 body {
