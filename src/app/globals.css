@@ -6,6 +6,7 @@
   --font-heading: "HeadingFont";
   --font-subheading: "SubHeadingFont";
   --font-subtext: "SubText";
+  --font-actay: "ActayRegular";
   --background: #0a0a0a;
   --foreground: #ededed;
 }
@@ -14,6 +15,9 @@ h1 {
 }
 p {
   font-family: var(--font-subheading);
+}
+h4 {
+  font-family: var(--font-actay);
 }
 h2,
 h3 {
@@ -37,6 +41,10 @@ h3 {
 @font-face {
   font-family: "SubText";
   src: url("/fonts/ActayWide-Bold.otf") format("woff2");
+}
+@font-face {
+  font-family: "ActayRegular";
+  src: url("/fonts/Actay-Regular.otf") format("woff2");
 }
 
 body {
