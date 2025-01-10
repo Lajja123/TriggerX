@@ -522,12 +522,12 @@ function homepage() {
         <Image
           src={footer1}
           alt=""
-          className="absolute w-[350px] left-0 -z-10"
+          className="absolute w-[250px] left-0 -z-10"
         />
         <Image
           src={footer2}
           alt=""
-          className="absolute w-[350px] right-0 -z-10"
+          className="absolute w-[250px] right-0 -z-10"
         />
         <div className=" lg:mt-40 md:mt-40 mt-20 sm:mt-20 flex justify-between">
           <div className="flex flex-col items-center justify-end  py-8">
