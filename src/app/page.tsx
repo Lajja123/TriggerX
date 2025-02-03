@@ -1,11 +1,13 @@
 import Image from "next/image";
 import Homepage from "../components/Homepage";
+import Main from "@/components/Main";
 
 export default function Home() {
   return (
     <div>
       <div className="">
-        <Homepage />
+        {/* <Homepage /> */}
+        <Main />
       </div>
     </div>
   );
