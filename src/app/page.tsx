@@ -1,13 +1,14 @@
 import Image from "next/image";
 import Homepage from "../components/Homepage";
 import Main from "@/components/Main";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
     <div>
       <div className="">
-        {/* <Homepage /> */}
-        <Main />
+        <Homepage />
+        <Footer />
       </div>
     </div>
   );

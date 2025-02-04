@@ -137,7 +137,6 @@ const Main = () => {
         width: positions.landing.width,
         x: positions.landing.x,
         y: positions.landing.y,
-        left: "50%",
         ease: "power2.out",
         duration: 1,
       },
@@ -679,18 +678,16 @@ const Main = () => {
               />
             </div>
 
-            <div className="absolute sm:top-10 top-0 md:top-6 lg:top-10 xl:top-20">
-              <Image
-                ref={landingImageRef}
-                src={landing}
-                alt="Landing illustration"
-                className="xl:w-[650px] lg:w=[500px] md:w-[400px]"
-                style={{
-                  opacity: imageOpacity,
-                  transition: "opacity 0.3s ease",
-                }}
-              />
-            </div>
+            <Image
+              ref={landingImageRef}
+              src={landing}
+              alt="Landing illustration"
+              className="xl:w-[650px] lg:w=[500px] md:w-[400px] absolute sm:top-10 top-0 md:top-6 lg:top-10 xl:top-20"
+              style={{
+                opacity: imageOpacity,
+                transition: "opacity 0.3s ease",
+              }}
+            />
           </div>
           {!animationCompleted && (
             <div
